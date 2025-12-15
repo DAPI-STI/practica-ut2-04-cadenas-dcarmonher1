@@ -14,4 +14,8 @@ def phone_core(s: str) -> str:
     - La parte central debe ser numérica.
     """
     # TODO: usa .strip(), .split("-") y validaciones con .isdigit() y startswith("+")
+    partes = s.split("-")
+    #if len(partes)!=3:
+
+        
     raise NotImplementedError("Implementa phone_core(s)")

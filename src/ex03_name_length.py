@@ -8,4 +8,10 @@ La función devolverá una tupla:
 def name_upper_and_length(name: str) -> tuple[str, int]:
     """Devuelve (NAME_EN_MAYUSCULAS, numero_de_letras_sin_espacios)."""
     # TODO: pasa el nombre a mayúsculas y cuenta las letras sin espacios
-    raise NotImplementedError("Implementa name_upper_and_length(name)")
+    name_en_mayusculas = name.upper()
+    numero = len(name)
+    espacios = name.count(" ")
+    letras = numero - espacios
+    return(name_en_mayusculas, letras)
+
+
