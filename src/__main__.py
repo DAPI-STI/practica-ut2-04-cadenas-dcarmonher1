@@ -13,3 +13,4 @@ from ex11_format_product import format_product
 print(repeat_name("David", 4))
 print(name_variants("David Carmona Herrera"))
 print(phone_core(+34-601369384-56))
+print(emphasize_vowel(Elefante,e))
