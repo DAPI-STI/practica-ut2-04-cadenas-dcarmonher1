@@ -11,4 +11,5 @@ from ex10_split_products import split_products
 from ex11_format_product import format_product
 
 print(repeat_name("David", 4))
-#print(name_variants("David Carmona Herrera"))
+print(name_variants("David Carmona Herrera"))
+print(phone_core(+34-601369384-56))
