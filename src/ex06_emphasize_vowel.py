@@ -18,17 +18,18 @@ def emphasize_vowel(phrase: str, vowel: str) -> str:
     - Recorre la frase carácter a carácter y construye una nueva cadena.
     """
     # TODO: validar y transformar
+    minuscula = vowel.lower()
     vocal = ("a", "e", "i", "o", "u")
     if len(vowel) != 1:
         raise ValueError("La vocal es más de 1 cáracter")
     
-    if vowel.lower() not in vocal:
+    if minuscula not in vocal:
         raise ValueError("La letra introducida no es una vocal")
     
     frase = ""
 
     for char in phrase:
-        if char.lower() == vowel:
+        if char.lower() == minuscula:
             frase += char.upper()
         else:
             frase += char

@@ -95,7 +95,7 @@ def test_ex06_emphasize_vowel_a():
 
 
 def test_ex06_emphasize_vowel_case_insensitive():
-    assert emphasize_vowel("Elefante", "E") == "ElEfAntE"
+    assert emphasize_vowel("Elefante", "E") == "ElEfantE"
 
 
 def test_ex06_emphasize_vowel_invalid():
